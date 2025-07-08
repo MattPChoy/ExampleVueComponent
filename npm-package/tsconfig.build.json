@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./dist",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "lib": ["ES2015", "DOM"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"]
+}
