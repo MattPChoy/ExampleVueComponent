@@ -1,13 +1,18 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "DOM"],
     "declaration": true,
     "emitDeclarationOnly": true,
     "declarationDir": "./dist",
     "rootDir": "./src",
-    "moduleResolution": "node",
-    "lib": ["ES2015", "DOM"],
-    "types": ["vite/client", "vue"],
-    "skipLibCheck": true
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["vite/client"]
   },
-  "include": ["src/**/*.ts", "src/**/*.vue"],
+  "include": ["src/**/*.ts", "src/**/*.vue", "src/shims-vue.d.ts"]
 }

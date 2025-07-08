@@ -22,5 +22,5 @@ export default defineConfig({
     },
     sourcemap: true,
   },
-  plugins: [vue(), dts()],
+  plugins: [vue()],
 })
