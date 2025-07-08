@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import dts from "vite-plugin-dts";
+import dts from 'vite-plugin-dts'
 import path from 'path';
 
 // https://vite.dev/config/
@@ -22,5 +22,5 @@ export default defineConfig({
     },
     sourcemap: true,
   },
-  plugins: [vue()],
+  plugins: [vue(), dts()],
 })

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "npm-package": "file:../npm-package/npm-package-0.0.0-dev4.tgz",
+    "npm-package": "file:../npm-package/npm-package-0.0.0-dev5.tgz",
     "vue": "^3.5.17"
   },
   "devDependencies": {

@@ -3,7 +3,6 @@ import {HelloWorld} from "npm-package";
 </script>
 
 <template>
-
   <HelloWorld/>
 </template>
 
