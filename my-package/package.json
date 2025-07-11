@@ -1,20 +1,21 @@
 {
   "name": "my-package",
   "private": true,
-  "version": "0.0.0-dev4",
+  "version": "0.0.0-dev6",
   "type": "module",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "files": [
     "dist"
   ],
-"scripts": {
+  "scripts": {
     "dev": "vite",
     "build": "tsc --p ./tsconfig.lib.json && vite build",
     "preview": "vite preview"
   },
   "exports": {
     ".": {
+      "types": "./dist/main.d.ts",
       "import": "./dist/main.es.js",
       "require": "./dist/main.umd.js"
     }

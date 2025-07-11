@@ -13,13 +13,14 @@ export default defineConfig({
     copyPublicDir: false,
     lib: {
       entry: resolve(__dirname, 'lib/main.ts'),
-      formats: ['es']
+      name: "my-package",
+      formats: ['es', 'umd'],
+      fileName: (format) => `main.${format}.js` // <-- This line
     },
     rollupOptions: {
       external: ['vue'],
       output: {
-        assetFileNames: 'assets/[name][extname]',
-        entryFileNames: '[name].js',
+        assetFileNames: 'assets/[name][extname]'
       }
     }
   }
