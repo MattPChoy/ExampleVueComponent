@@ -15,7 +15,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/lib.ts'),
       name: "my-package",
       formats: ['es', 'umd'],
-      fileName: (format) => `main.${format}.js` // <-- This line
+      fileName: (format) => `main.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],
