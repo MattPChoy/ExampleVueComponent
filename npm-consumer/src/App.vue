@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { HelloWorld } from 'npm-package';
+import {HelloWorld} from "my-package";
 </script>
 
 <template>
