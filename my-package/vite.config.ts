@@ -12,7 +12,7 @@ export default defineConfig({
   build: {
     copyPublicDir: false,
     lib: {
-      entry: resolve(__dirname, 'lib/main.ts'),
+      entry: resolve(__dirname, 'src/lib.ts'),
       name: "my-package",
       formats: ['es', 'umd'],
       fileName: (format) => `main.${format}.js` // <-- This line
