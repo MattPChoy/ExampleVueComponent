@@ -11,6 +11,7 @@ export default defineConfig({
       name: "test-package",
       //A function that generates the output file name for different formats during the build
       fileName: (format) => `index.${format}.js`,
+      formats: ['es', 'umd'],
     },
     rollupOptions: {
       external: ['vue'],
@@ -18,6 +19,7 @@ export default defineConfig({
         globals: {
           vue: 'Vue',
         },
+        exports: 'named',
       },
     },
     sourcemap: true,

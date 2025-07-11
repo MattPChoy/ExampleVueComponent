@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import {HelloWorld} from "npm-package";
+import { HelloWorld } from 'npm-package';
 </script>
 
 <template>
-  <HelloWorld/>
+  <HelloWorld msg="balls"/>
 </template>
 
 <style scoped>

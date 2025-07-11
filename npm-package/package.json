@@ -1,7 +1,7 @@
 {
   "name": "npm-package",
   "private": true,
-  "version": "0.0.0-dev6",
+  "version": "0.0.0-dev7",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
